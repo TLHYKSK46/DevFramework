@@ -1,0 +1,5 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Entities\bin\Debug\DevFramework.Db.Entities.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Entities\Debug\DevFramework.Db.Entities.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Entities\Debug\DevFramework.Db.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Entities\Debug\DevFramework.Db.Entities.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Entities\Debug\DevFramework.Db.Entities.dll

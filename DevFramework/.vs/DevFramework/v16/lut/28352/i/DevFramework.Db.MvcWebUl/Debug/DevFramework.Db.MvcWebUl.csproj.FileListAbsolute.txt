@@ -1,0 +1,6 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.MvcWebUl\bin\DevFramework.Db.MvcWebUl.dll.config
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.MvcWebUl\bin\DevFramework.Db.MvcWebUl.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.MvcWebUl\Debug\DevFramework.Db.MvcWebUl.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.MvcWebUl\Debug\DevFramework.Db.MvcWebUl.csproj.CoreCompileInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.MvcWebUl\Debug\DevFramework.Db.MvcWebUl.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.MvcWebUl\Debug\DevFramework.Db.MvcWebUl.dll

@@ -1,0 +1,13 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.dll.config
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.deps.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.runtimeconfig.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.runtimeconfig.dev.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.AssemblyInfoInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.AssemblyInfo.cs
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business.Tests\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.genruntimeconfig.cache

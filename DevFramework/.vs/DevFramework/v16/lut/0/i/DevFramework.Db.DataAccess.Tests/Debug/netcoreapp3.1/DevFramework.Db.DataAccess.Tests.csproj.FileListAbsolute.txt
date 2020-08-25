@@ -1,0 +1,16 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\testhost.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\testhost.exe
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.dll.config
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.deps.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.runtimeconfig.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.runtimeconfig.dev.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.AssemblyInfoInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.AssemblyInfo.cs
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess.Tests\Debug\netcoreapp3.1\DevFramework.Db.DataAccess.Tests.genruntimeconfig.cache

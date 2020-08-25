@@ -1,0 +1,5 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess\bin\Debug\DevFramework.Db.DataAccess.dll.config
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.DataAccess\bin\Debug\DevFramework.Db.DataAccess.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess\Debug\DevFramework.Db.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess\Debug\DevFramework.Db.DataAccess.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.DataAccess\Debug\DevFramework.Db.DataAccess.dll

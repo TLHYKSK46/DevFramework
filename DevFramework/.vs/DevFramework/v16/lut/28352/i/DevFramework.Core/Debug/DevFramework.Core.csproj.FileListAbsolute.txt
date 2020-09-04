@@ -1,7 +1,0 @@
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Core\bin\Debug\DevFramework.Core.dll.config
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Core\bin\Debug\DevFramework.Core.dll
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Core\Debug\DevFramework.Core.csprojAssemblyReference.cache
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Core\Debug\DevFramework.Core.csproj.CoreCompileInputs.cache
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Core\Debug\DevFramework.Core.csproj.CopyComplete
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Core\Debug\DevFramework.Core.dll.postsharp
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Core\Debug\DevFramework.Core.dll

@@ -12,6 +12,7 @@ namespace DevFramework.Db.Business.Abstract
         List<Product> GetAll();
         Product GetById(int id);
         Product Add(Product product);
+        public void TransectionalOperation(Product product1,Product product2);
 
     }
 }

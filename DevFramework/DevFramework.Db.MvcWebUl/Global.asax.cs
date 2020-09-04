@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DevFramework.Core.Utilities.Mvc.Infrastructure;
+using DevFramework.Db.Business.DependecyResolvers.Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +15,7 @@ namespace DevFramework.Db.MvcWebUl
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(new BusinessModule()));
         }
     }
 }

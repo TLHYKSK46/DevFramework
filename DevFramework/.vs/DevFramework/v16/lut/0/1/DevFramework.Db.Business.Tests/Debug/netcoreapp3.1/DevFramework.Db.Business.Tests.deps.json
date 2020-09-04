@@ -1266,6 +1266,14 @@
           }
         }
       },
+      "Ninject/3.3.4.0": {
+        "runtime": {
+          "Ninject.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
+          }
+        }
+      },
       "Microsoft.Data.Tools.Utilities/15.0.0.0": {
         "runtime": {
           "Microsoft.Data.Tools.Utilities.dll": {
@@ -2045,6 +2053,11 @@
       "sha512": ""
     },
     "PostSharp/4.2.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ninject/3.3.4.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

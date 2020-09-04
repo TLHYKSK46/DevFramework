@@ -1,6 +1,0 @@
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\b\DevFramework.Db.Business\bin\Debug\DevFramework.Db.Business.dll
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business\Debug\DevFramework.Db.Business.csprojAssemblyReference.cache
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business\Debug\DevFramework.Db.Business.csproj.CoreCompileInputs.cache
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business\Debug\DevFramework.Db.Business.csproj.CopyComplete
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business\Debug\DevFramework.Db.Business.dll.postsharp
-C:\Users\Kardelen\Desktop\Çalışmalarım\DevFramework\DevFramework\.vs\DevFramework\v16\lut\0\i\DevFramework.Db.Business\Debug\DevFramework.Db.Business.dll

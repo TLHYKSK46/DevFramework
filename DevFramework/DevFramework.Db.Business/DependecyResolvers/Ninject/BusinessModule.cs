@@ -22,7 +22,7 @@ namespace DevFramework.Db.Business.DependecyResolvers.Ninject
             Bind<IProductDal>().To<EfProductDal>();
 
             Bind(typeof(IQueryableRepository<>)).To(typeof(EfQueryableRepository<>));
-            global::Ninject.Syntax.IBindingWhenInNamedWithOrOnSyntax<NortwindContext> bindingWhenInNamedWithOrOnSyntax = Bind<DbContext>().To<NortwindContext>();
+            Bind<DbContext>().To<NortwindContext>();
         }
     }
 }

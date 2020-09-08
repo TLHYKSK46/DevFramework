@@ -4,17 +4,12 @@ using DevFramework.Db.Business.Abstract;
 using DevFramework.Db.Business.Concrete.Managers;
 using DevFramework.Db.DataAccess.Abstract;
 using DevFramework.Db.DataAccess.Concrate;
-using Microsoft.EntityFrameworkCore;
 using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace DevFramework.Db.Business.DependecyResolvers.Ninject
 {
-  public  class BusinessModule:NinjectModule
+    public  class BusinessModule:NinjectModule
     {
         public override void Load()
         {
@@ -22,7 +17,8 @@ namespace DevFramework.Db.Business.DependecyResolvers.Ninject
             Bind<IProductDal>().To<EfProductDal>();
 
             Bind(typeof(IQueryableRepository<>)).To(typeof(EfQueryableRepository<>));
-            Bind<DbContext>().To<NortwindContext>();
+            Bind<System.Data.Entity.DbContext>().To<NortwindContext>();
+            
         }
     }
 }

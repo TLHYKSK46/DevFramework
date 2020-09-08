@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DevFramework.Db.DataAccess.Concrate
 {
+   
     public class NortwindContext:DbContext
     {
         public NortwindContext()

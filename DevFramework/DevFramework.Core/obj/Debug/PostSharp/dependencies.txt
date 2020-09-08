@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.6.13\bin.Release\net472\PostSharp.Compiler.Engine.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Core\obj\Debug\PostSharp\postsharp.config

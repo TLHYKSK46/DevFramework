@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj": {}
+    "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+    "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
+        "projectUniqueName": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
         "projectName": "DevFramework.Core",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+        "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj": {
+    "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj",
+        "projectUniqueName": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj",
         "projectName": "DevFramework.Db.DataAccess.Tests",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj",
+        "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\DevFramework.Db.DataAccess.Tests.csproj",
         "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\obj\\",
+        "outputPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,11 +42,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
               },
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj"
+              "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj": {
+                "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj"
               }
             }
           }
@@ -74,7 +74,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.6.1, )"
+              "version": "[16.7.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -102,19 +102,19 @@
         }
       }
     },
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj": {
+    "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj",
+        "projectUniqueName": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj",
         "projectName": "DevFramework.Db.DataAccess",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj",
+        "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.DataAccess\\DevFramework.Db.DataAccess.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
               },
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj"
+              "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj": {
+                "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj"
               }
             }
           }
@@ -124,16 +124,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj": {
+    "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj",
+        "projectUniqueName": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj",
         "projectName": "DevFramework.Db.Entities",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj",
+        "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Db.Entities\\DevFramework.Db.Entities.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "D:\\GitHubProjelerim\\DevFramework\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
               }
             }
           }

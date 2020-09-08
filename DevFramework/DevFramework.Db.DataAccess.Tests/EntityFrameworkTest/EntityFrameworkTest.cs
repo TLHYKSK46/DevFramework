@@ -1,10 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using DevFramework.Db.DataAccess;
-using DevFramework.Core;
-using DevFramework.Db.DataAccess.Concrate;
+﻿using DevFramework.Db.DataAccess.Concrate;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DevFramework.Db.DataAccess.Tests.EntityFrameworkTest
 {

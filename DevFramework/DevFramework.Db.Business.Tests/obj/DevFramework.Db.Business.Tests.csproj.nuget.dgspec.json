@@ -69,7 +69,7 @@
             },
             "FluentValidation": {
               "target": "Package",
-              "version": "[9.1.3, )"
+              "version": "[6.4.1, )"
             },
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },

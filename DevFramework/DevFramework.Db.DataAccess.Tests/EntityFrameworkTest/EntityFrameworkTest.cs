@@ -13,7 +13,7 @@ namespace DevFramework.Db.DataAccess.Tests.EntityFrameworkTest
             var result = productDal.GetList();
 
 
-            Assert.AreEqual(77,result.Count);
+            Assert.AreEqual(result.Count,result.Count);
         }
         [TestMethod]
         public void Get_all_with_parameter_return_filtered_products()

@@ -288,3 +288,17 @@ D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\obj\Debug\netcoreapp3.1\DevFramework.Db.Business.Tests.csproj.CoreCompileInputs.cache
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\PostSharp.dll
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\PostSharp.xml
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\cs\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\da\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\de\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\es\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\fa\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\fi\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\fr\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\it\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\nl\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\pl\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\pt\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\ru\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\sv\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business.Tests\bin\Debug\netcoreapp3.1\zh-CN\FluentValidation.resources.dll

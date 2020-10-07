@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace DevFramework.Db.DataAccess.Concrate
 {
-    public class EfProductDal : EfEntityRepositoryBase<Product, NortwindContext>, IProductDal
+    public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
     {
         public List<ProductDetail> GetProductDetails()
         {
-            using (NortwindContext context=new NortwindContext()) {
+            using (NorthwindContext context=new NorthwindContext()) {
 
                 var result = from p in context.Products
                              join c in context.Categories on p.CategoryID equals c.CategoryID

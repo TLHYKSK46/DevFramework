@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 namespace DevFramework.Core.CrossCuttingConcerns.Loging.Log4Net
 {
     [Serializable]
-   public class SerializableLogEvent
+    public class SerializableLogEvent
     {
-        private LoggingEvent _logingEvent;
+        private LoggingEvent _loggingEvent;
 
-        public SerializableLogEvent(LoggingEvent logingEvent)
+        public SerializableLogEvent(LoggingEvent loggingEvent)
         {
-            _logingEvent = logingEvent;
+            _loggingEvent = loggingEvent;
         }
-        //methodlar
-        public string UserName => _logingEvent.UserName;
-        public object MessageObject => _logingEvent.MessageObject;
+
+        public string UserName => _loggingEvent.UserName;
+        public object MessageObject => _loggingEvent.MessageObject;
     }
 }

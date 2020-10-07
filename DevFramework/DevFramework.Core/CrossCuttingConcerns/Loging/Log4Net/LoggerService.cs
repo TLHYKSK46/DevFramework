@@ -9,65 +9,55 @@ using System.Threading.Tasks;
 namespace DevFramework.Core.CrossCuttingConcerns.Loging.Log4Net
 {
     [Serializable]
-    public  class LoggerService
+    public class LoggerService
     {
-      private  ILog _log;
-      
+        private ILog _log;
+
         public LoggerService(ILog log)
         {
             _log = log;
         }
-        //metodlar
+
         public bool IsInfoEnabled => _log.IsInfoEnabled;
         public bool IsDebugEnabled => _log.IsDebugEnabled;
         public bool IsWarnEnabled => _log.IsWarnEnabled;
         public bool IsFatalEnabled => _log.IsFatalEnabled;
-        public bool IsErorEnabled => _log.IsErrorEnabled;
+        public bool IsErrorEnabled => _log.IsFatalEnabled;
 
-        public void Info(Object logMessage) {
-
+        public void Info(object logMessage)
+        {
             if (IsInfoEnabled)
             {
                 _log.Info(logMessage);
             }
         }
-
-        public void Debug(Object logMessage)
+        public void Debug(object logMessage)
         {
-
             if (IsDebugEnabled)
             {
                 _log.Debug(logMessage);
             }
-
         }
-
-        public void Warn(Object logMessage)
+        public void Warn(object logMessage)
         {
-
             if (IsWarnEnabled)
             {
                 _log.Warn(logMessage);
             }
         }
-
-        public void Fatal(Object logMessage)
+        public void Fatal(object logMessage)
         {
-
             if (IsFatalEnabled)
             {
                 _log.Fatal(logMessage);
             }
         }
-
-        public void Eror(Object logMessage)
+        public void Error(object logMessage)
         {
-
-            if (IsErorEnabled)
+            if (IsErrorEnabled)
             {
                 _log.Error(logMessage);
             }
         }
-
     }
 }

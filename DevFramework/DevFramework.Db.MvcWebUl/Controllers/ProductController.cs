@@ -28,5 +28,11 @@ namespace DevFramework.Db.MvcWebUl.Controllers
 
             return View(model);
         }
+        public string add() {
+
+            _productService.Add(new Entities.Product {CategoryID=1,ProductName="test",QuantityPerUnit="1", UnitPrice=21 });
+
+            return "aded!";
+        }
     }
 }

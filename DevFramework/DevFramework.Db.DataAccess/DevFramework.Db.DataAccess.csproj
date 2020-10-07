@@ -58,7 +58,7 @@
     <Compile Include="Concrate\EnttityFramework\EfCategoryDal.cs" />
     <Compile Include="Concrate\EnttityFramework\Mappings\CategoryMap.cs" />
     <Compile Include="Concrate\EnttityFramework\Mappings\ProductMap.cs" />
-    <Compile Include="Concrate\NortwindContext.cs" />
+    <Compile Include="Concrate\NorthwindContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

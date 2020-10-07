@@ -44,14 +44,14 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="FluentValidation, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
-      <HintPath>..\packages\FluentValidation.9.1.3\lib\net461\FluentValidation.dll</HintPath>
+    <Reference Include="FluentValidation, Version=6.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.4.1\lib\Net45\FluentValidation.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=2.0.9.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.9\lib\net45\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -110,12 +110,13 @@
   <ItemGroup>
     <Compile Include="Aspects\Postsharp\CacheAspects\CacheAspect.cs" />
     <Compile Include="Aspects\Postsharp\CacheAspects\CacheRemoveAspect.cs" />
+    <Compile Include="Aspects\Postsharp\ExceptionAspects\ExceptionLogAspect.cs" />
     <Compile Include="Aspects\Postsharp\LogAspects\LogAspect.cs" />
     <Compile Include="Aspects\Postsharp\TransectionAspects\TransectionScopeAspect.cs" />
     <Compile Include="Aspects\Postsharp\VaidationAspects\FluentValidationAspect.cs" />
     <Compile Include="CrossCuttingConcerns\Caching\ICacheManager.cs" />
     <Compile Include="CrossCuttingConcerns\Caching\Microsoft\MemoryCachManager.cs" />
-    <Compile Include="CrossCuttingConcerns\Loging\Log4Net\Layouts\jsonLayout.cs" />
+    <Compile Include="CrossCuttingConcerns\Loging\Log4Net\Layouts\JsonLayout.cs" />
     <Compile Include="CrossCuttingConcerns\Loging\Log4Net\LoggerService.cs" />
     <Compile Include="CrossCuttingConcerns\Loging\Log4Net\Loggers\DatabaseLogger.cs" />
     <Compile Include="CrossCuttingConcerns\Loging\Log4Net\Loggers\FileLogger.cs" />

@@ -17,7 +17,7 @@ namespace DevFramework.Db.Business.DependecyResolvers.Ninject
             Bind<IProductDal>().To<EfProductDal>();
 
             Bind(typeof(IQueryableRepository<>)).To(typeof(EfQueryableRepository<>));
-            Bind<System.Data.Entity.DbContext>().To<NortwindContext>();
+            Bind<System.Data.Entity.DbContext>().To<NorthwindContext>();
             
         }
     }

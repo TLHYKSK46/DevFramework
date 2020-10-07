@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 namespace DevFramework.Core.Aspects.Postsharp.LogAspects
 {
     [Serializable]
-    [MulticastAttributeUsage(MulticastTargets.Method,TargetMemberAttributes =MulticastAttributes.Instance)]
-    public class LogAspect:OnMethodBoundaryAspect
+    [MulticastAttributeUsage(MulticastTargets.Method, TargetMemberAttributes = MulticastAttributes.Instance)]
+    public class LogAspect : OnMethodBoundaryAspect
     {
-        Type _loggerType;
-        LoggerService _loggerService;
+        private Type _loggerType;
+        private LoggerService _loggerService;
 
         public LogAspect(Type loggerType)
         {
@@ -25,22 +25,21 @@ namespace DevFramework.Core.Aspects.Postsharp.LogAspects
 
         public override void RuntimeInitialize(MethodBase method)
         {
-            if (_loggerType.BaseType!=typeof(LoggerService))
+            if (_loggerType.BaseType != typeof(LoggerService))
             {
-                throw new Exception("wrong logger type");
+                throw new Exception("Wrong logger type");
             }
-
             _loggerService = (LoggerService)Activator.CreateInstance(_loggerType);
-
             base.RuntimeInitialize(method);
         }
+
         public override void OnEntry(MethodExecutionArgs args)
         {
-
             if (!_loggerService.IsInfoEnabled)
             {
                 return;
             }
+
             try
             {
                 var logParameters = args.Method.GetParameters().Select((t, i) => new LogParameter
@@ -54,16 +53,16 @@ namespace DevFramework.Core.Aspects.Postsharp.LogAspects
                 {
                     FullName = args.Method.DeclaringType == null ? null : args.Method.DeclaringType.Name,
                     MethodName = args.Method.Name,
-                    Parameters = logParameters,
+                    Parameters = logParameters
                 };
+
                 _loggerService.Info(logDetail);
             }
             catch (Exception)
             {
 
-       
             }
-           
+
         }
     }
 }

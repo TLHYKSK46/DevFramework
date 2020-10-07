@@ -10,18 +10,20 @@ using System.Threading.Tasks;
 
 namespace DevFramework.Core.CrossCuttingConcerns.Loging.Log4Net.Layouts
 {
-    public class jsonLayout : LayoutSkeleton
+    public class JsonLayout : LayoutSkeleton
     {
         public override void ActivateOptions()
         {
-           
+
         }
 
         public override void Format(TextWriter writer, LoggingEvent loggingEvent)
         {
             var logEvent = new SerializableLogEvent(loggingEvent);
-            var json = JsonConvert.SerializeObject(logEvent,Formatting.Indented);
+
+            var json = JsonConvert.SerializeObject(logEvent, Formatting.Indented);
             writer.WriteLine(json);
+
         }
     }
 }

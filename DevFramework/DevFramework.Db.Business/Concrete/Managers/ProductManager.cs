@@ -16,12 +16,13 @@ using DevFramework.Core.Aspects.Postsharp.LogAspects;
 
 namespace DevFramework.Db.Business.Concrete.Managers
 {
-  public  class ProductManager : IProductServis
+    [LogAspect(typeof(DatabaseLogger))]
+    public  class ProductManager : IProductServis
     {
         private IProductDal _productDal;
 
-      
 
+     
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
@@ -29,14 +30,16 @@ namespace DevFramework.Db.Business.Concrete.Managers
 
         [FluentValidationAspect(typeof(ProductValidatior))]
         [CacheRemoveAspect(typeof(MemoryCachManager))]
+        //[LogAspect(typeof(FileLogger))]
+        //[LogAspect(typeof(DatabaseLogger))]//log yapma veritabanı
         public Product Add(Product product)
         {
             //ValidatorTool.FluentValidate(new MakaleValidatior(),makale);//FLUENT VALİdation bu şekilde de kullanılır ama bu solid e uymuyor onda attirbute olrak yazdık
             return _productDal.Add(product);
         }
         [CacheAspect(typeof(MemoryCachManager))]
-        [LogAspect(typeof(FileLogger))]//log yapma dosya
-        [LogAspect(typeof(DatabaseLogger))]//log yapma veritabanı
+        //[LogAspect(typeof(FileLogger))]//log yapma dosya
+        //[LogAspect(typeof(DatabaseLogger))]//log yapma veritabanı
         public List<Product> GetAll()
         {
             return _productDal.GetList();

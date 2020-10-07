@@ -13,6 +13,8 @@ using DevFramework.Core.CrossCuttingConcerns.Caching.Microsoft;
 using DevFramework.Core.Aspects.Postsharp.CacheAspects;
 using DevFramework.Core.CrossCuttingConcerns.Loging.Log4Net.Loggers;
 using DevFramework.Core.Aspects.Postsharp.LogAspects;
+using PostSharp.Aspects.Dependencies;
+using DevFramework.Core.Aspects.Postsharp.AuthorizationAspects;
 
 namespace DevFramework.Db.Business.Concrete.Managers
 {
@@ -40,8 +42,10 @@ namespace DevFramework.Db.Business.Concrete.Managers
         [CacheAspect(typeof(MemoryCachManager))]
         //[LogAspect(typeof(FileLogger))]//log yapma dosya
         //[LogAspect(typeof(DatabaseLogger))]//log yapma veritabanı
+        [SecuredOperation(Roles="Admin,Editor")]
         public List<Product> GetAll()
         {
+            System.Threading.Thread.Sleep(3000);
             return _productDal.GetList();
         }
 

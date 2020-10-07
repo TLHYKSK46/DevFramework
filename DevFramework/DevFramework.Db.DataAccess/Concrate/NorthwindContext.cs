@@ -1,5 +1,6 @@
 ﻿using DevFramework.Db.DataAccess.Concrate.EnttityFramework.Mappings;
 using DevFramework.Db.Entities;
+using DevFramework.Db.Entities.Concreate;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -20,7 +21,7 @@ namespace DevFramework.Db.DataAccess.Concrate
       public  DbSet<Product> Products { get; set; }
        public DbSet<Category> Categories { get; set; }
 
-
+        public DbSet<User> Users { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new ProductMap());

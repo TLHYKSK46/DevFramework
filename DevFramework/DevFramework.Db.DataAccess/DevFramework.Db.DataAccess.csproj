@@ -53,11 +53,14 @@
   <ItemGroup>
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Abstract\IUserDal.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Concrate\EnttityFramework\EfUserDal.cs" />
     <Compile Include="Concrate\EnttityFramework\EfProductDal.cs" />
     <Compile Include="Concrate\EnttityFramework\EfCategoryDal.cs" />
     <Compile Include="Concrate\EnttityFramework\Mappings\CategoryMap.cs" />
     <Compile Include="Concrate\EnttityFramework\Mappings\ProductMap.cs" />
+    <Compile Include="Concrate\EnttityFramework\Mappings\UserMap.cs" />
     <Compile Include="Concrate\NorthwindContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

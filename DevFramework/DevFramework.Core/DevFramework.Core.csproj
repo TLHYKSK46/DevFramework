@@ -125,6 +125,8 @@
     <Compile Include="CrossCuttingConcerns\Loging\LogDetail.cs" />
     <Compile Include="CrossCuttingConcerns\Loging\LogParameter.cs" />
     <Compile Include="CrossCuttingConcerns\Security\Identity.cs" />
+    <Compile Include="CrossCuttingConcerns\Security\Web\AouthenticationHelper.cs" />
+    <Compile Include="CrossCuttingConcerns\Security\Web\SecurityUtilities.cs" />
     <Compile Include="CrossCuttingConcerns\Validation\FluentValidation\ValidatorTool.cs" />
     <Compile Include="DataAccess\IEntitiyRepository.cs" />
     <Compile Include="DataAccess\IQueryableRepository.cs" />

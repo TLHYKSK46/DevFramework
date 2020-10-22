@@ -1,4 +1,5 @@
 ﻿using DevFramework.Core.DataAccess;
+using DevFramework.Db.Entities.ComlexType;
 using DevFramework.Db.Entities.Concreate;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace DevFramework.Db.DataAccess.Abstract
 {
    public interface IUserDal: IEntitiyRepository<User>
     {
+        List<UserRoleItem> GetUserRoles(User user);
     }
 }

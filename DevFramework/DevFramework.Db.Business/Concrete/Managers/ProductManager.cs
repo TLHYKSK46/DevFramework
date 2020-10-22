@@ -15,6 +15,8 @@ using DevFramework.Core.CrossCuttingConcerns.Loging.Log4Net.Loggers;
 using DevFramework.Core.Aspects.Postsharp.LogAspects;
 using PostSharp.Aspects.Dependencies;
 using DevFramework.Core.Aspects.Postsharp.AuthorizationAspects;
+using AutoMapper;
+using DevFramework.Core.Utilities.Mappings;
 
 namespace DevFramework.Db.Business.Concrete.Managers
 {
@@ -22,12 +24,13 @@ namespace DevFramework.Db.Business.Concrete.Managers
     public  class ProductManager : IProductServis
     {
         private IProductDal _productDal;
-
+        private readonly IMapper _mapper;
 
      
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal,IMapper mapper)
         {
             _productDal = productDal;
+            _mapper = mapper;
         }
 
         [FluentValidationAspect(typeof(ProductValidatior))]
@@ -45,9 +48,22 @@ namespace DevFramework.Db.Business.Concrete.Managers
         [SecuredOperation(Roles="Admin,Editor")]
         public List<Product> GetAll()
         {
-            System.Threading.Thread.Sleep(3000);
-            return _productDal.GetList();
+            //System.Threading.Thread.Sleep(3000);
+            //return _productDal.GetList().Select(p => new Product
+            //{
+            //    CategoryID=p.CategoryID,
+            //    ProductID=p.ProductID,
+            //    ProductName=p.ProductName,
+            //    QuantityPerUnit=p.QuantityPerUnit,
+            //    UnitPrice=p.UnitPrice
+            //}).ToList();
+            //Yukarıdakinin aynısını yaptık ama kod tekrarı olmasın diye
+            //var products=AutoMapperHelper.MapToSameTypeList(_productDal.GetList());
+            var products = _mapper.Map<List<Product>>(_productDal.GetList());
+            return products;
         }
+
+       
 
         public Product GetById(int id)
         {

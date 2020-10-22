@@ -14,6 +14,18 @@ namespace DevFramework.Db.DataAccess.Concrate
 {
     public class EfUserDal : EfEntityRepositoryBase<User, NorthwindContext>, IUserDal
     {
-      
+        public List<UserRoleItem> GetUserRoles(User user)
+        {
+            //dbo.UserRoles
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                var result = from ur in context.UsersRoles
+                             join r in context.Roles
+                             on ur.UserId equals user.Id
+                             where ur.UserId == user.Id
+                             select new UserRoleItem { RoleName = r.Name };
+                return result.ToList();
+            }
+        }
     }
 }

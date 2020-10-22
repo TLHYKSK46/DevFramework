@@ -233,3 +233,5 @@ D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\ru\Fl
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\sv\FluentValidation.resources.dll
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\tr\FluentValidation.resources.dll
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\zh-CN\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\AutoMapper.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.MvcWebUl\bin\AutoMapper.xml

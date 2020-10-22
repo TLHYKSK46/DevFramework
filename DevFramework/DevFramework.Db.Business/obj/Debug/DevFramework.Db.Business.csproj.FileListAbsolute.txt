@@ -219,3 +219,5 @@ D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug\sv\FluentValidation.resources.dll
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug\tr\FluentValidation.resources.dll
 D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug\AutoMapper.dll
+D:\GitHubProjelerim\DevFramework\DevFramework\DevFramework.Db.Business\bin\Debug\AutoMapper.xml

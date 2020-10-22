@@ -1,4 +1,5 @@
 ﻿using DevFramework.Core.CrossCuttingConcerns.Security.Web;
+using DevFramework.Db.Business.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,21 +10,35 @@ namespace DevFramework.Db.MvcWebUl.Controllers
 {
     public class AccountController : Controller
     {
-        // GET: Account
-        public String Login()
-        {
-            AouthenticationHelper.CreateAuthCookie(
-                new Guid(),
-                "talhayuksek",
-                "talha.yuksek@yaani.com",
-                DateTime.Now.AddDays(15),
-                new[] { "SuperAdmin"},
-                false,
-                "Talha",
-                "Yüksek"
-                );
+        IUserServis _userServis;
 
-            return  "Kullanıcı Giriş Yaptı!";
+        public AccountController(IUserServis userServis)
+        {
+            _userServis = userServis;
+        }
+
+        // GET: Account
+        public String Login(string userName,string password)
+        {
+            var user = _userServis.GetByUserNameAndPassword(userName,password);
+            if (user!=null)
+            {
+                AouthenticationHelper.CreateAuthCookie(
+                new Guid(),
+                user.UserName,
+                user.Email,
+                DateTime.Now.AddDays(15),
+                _userServis.GetUserRoles(user).Select(u=>u.RoleName).ToArray(),
+                false,
+                user.FirsName,
+                user.LastName
+                );
+                return "Kullanıcı Giriş Yaptı!";
+            }
+
+
+            return "Kullanıcı Yok";
+            
         }
     }
 }

@@ -16,8 +16,12 @@ namespace DevFramework.Db.Business.DependecyResolvers.Ninject
             Bind<IProductServis>().To<ProductManager>().InSingletonScope();
             Bind<IProductDal>().To<EfProductDal>();
 
+            Bind<IUserServis>().To<UserManager>().InSingletonScope();
+            Bind<IUserDal>().To<EfUserDal>().InSingletonScope();
+
             Bind(typeof(IQueryableRepository<>)).To(typeof(EfQueryableRepository<>));
             Bind<System.Data.Entity.DbContext>().To<NorthwindContext>();
+            
             
         }
     }

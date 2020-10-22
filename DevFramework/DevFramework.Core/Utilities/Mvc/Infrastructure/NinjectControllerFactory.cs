@@ -13,8 +13,8 @@ namespace DevFramework.Core.Utilities.Mvc.Infrastructure
    public class NinjectControllerFactory:DefaultControllerFactory
     {
       private  IKernel _kernel;
-        public NinjectControllerFactory(INinjectModule module) {
-            _kernel = new StandardKernel(module);
+        public NinjectControllerFactory(params INinjectModule[] modules) {
+            _kernel = new StandardKernel(modules);
         }
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
         {
